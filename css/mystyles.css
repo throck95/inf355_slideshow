@@ -1,0 +1,36 @@
+#containerDiv {
+    border: 1px solid black;
+    margin: auto auto;
+    overflow: hidden;
+    background-color: #CCE1E8;
+}
+
+#slideshowDiv {
+    position: relative;
+}
+
+#slideshowDiv img {
+    position: absolute;
+    top: 50px;
+    left: -1000px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+}
+
+#reverseButton {
+    float: right;
+}
+
+#forwardButton {
+    float: right;
+}
+
+h2 {
+    text-align: center;
+}
